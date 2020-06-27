@@ -1,8 +1,6 @@
 import org.junit.Test;
-
 import java.util.ArrayList;
 import java.util.List;
-
 import static org.junit.Assert.*;
 
 public class MyFirstTest {
@@ -11,7 +9,6 @@ public class MyFirstTest {
     public void testIfCompanyNameIsEquals() {
         String expected = "Codeup";
         String actual = "Codeup";
-
         assertEquals(expected, actual);
         assertNotEquals("CodeUp",actual);
     }
